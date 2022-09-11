@@ -29,9 +29,9 @@ main()
 
   int buf1,buf2;
   FILE *data;
-  data=fopen("tmpFiller_A.rdf","r");
+  data=fopen("tmpCounterion_Counterion.rdf","r");
   FILE *output;
-  output=fopen("radialFiller_A.txt","w");
+  output=fopen("radialCounterion_Counterion.txt","w");
 
   int c;
   cleartitle(3,data);
