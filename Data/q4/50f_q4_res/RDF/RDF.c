@@ -29,9 +29,9 @@ main()
 
   int buf1,buf2;
   FILE *data;
-  data=fopen("tmpAB.rdf","r");
+  data=fopen("tmpFiller_A.rdf","r");
   FILE *output;
-  output=fopen("radialAB.txt","w");
+  output=fopen("radialFiller_A.txt","w");
 
   int c;
   cleartitle(3,data);
