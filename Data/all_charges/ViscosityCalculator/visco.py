@@ -7,7 +7,7 @@ import os
 fileDirectory = os.path.dirname(__file__)
 
 #rename str_cor_long.txt to Gt_qX_YYf.txt and put the file here
-inputFile = os.path.join(fileDirectory, "Gt_q3_25f.txt")
+inputFile = os.path.join(fileDirectory, "Gt_q4_100f.txt")
 
 data = pd.read_csv(inputFile, sep="\t", header = None)
 
