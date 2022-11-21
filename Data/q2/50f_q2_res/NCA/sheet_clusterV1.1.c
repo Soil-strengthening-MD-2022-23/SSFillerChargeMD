@@ -17,7 +17,7 @@ struct particle{
 #define TRUE 1;
 
 const int N_CHAIN=9000;
-const int N_FILLER=19*25;
+const int N_FILLER=19*50;
 const int SIZE_CHAIN=30;
 const int SIZE_FILLER=19;
 const int TYPECHAIN=2;
@@ -295,8 +295,8 @@ main()
   getchar();
 
   FILE *datafiller,*datachain,*writedata;
-  datafiller = fopen("..//filler_after.lammpstrj","r");
-  datachain = fopen("..//chains_after.lammpstrj","r");
+  datafiller = fopen("filler_after.lammpstrj","r");
+  datachain = fopen("chains_after.lammpstrj","r");
   writedata = fopen("clustering_time.txt","w");
 
   int ReadInCount=0;

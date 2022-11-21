@@ -295,8 +295,8 @@ main()
   getchar();
 
   FILE *datafiller,*datachain,*writedata;
-  datafiller = fopen("..//filler_after.lammpstrj","r");
-  datachain = fopen("..//chains_after.lammpstrj","r");
+  datafiller = fopen("filler_after.lammpstrj","r");
+  datachain = fopen("chains_after.lammpstrj","r");
   writedata = fopen("clustering_time.txt","w");
 
   int ReadInCount=0;
